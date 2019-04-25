@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jelani Woods"]
   spec.email         = ["jelani@firstdraft.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Methods to get and parse Git diffs}
+  spec.description   = %q{Handle Git diffs}
   spec.homepage      = "https://github.com/jelaniwoods/git_diff_icult"
   spec.license       = "MIT"
 
@@ -20,8 +20,8 @@ Gem::Specification.new do |spec|
     spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-    spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+    spec.metadata["source_code_uri"] = "https://github.com/jelaniwoods/git_diff_icult"
+    spec.metadata["changelog_uri"] = "https://github.com/jelaniwoods/git_diff_icult"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
