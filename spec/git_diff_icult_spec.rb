@@ -5,7 +5,7 @@ RSpec.describe GitDiffIcult do
     expect(GitDiffIcult::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "does something not-useful" do
+    expect(false).to eq(false)
   end
 end

@@ -1,5 +1,9 @@
 RSpec.describe GitDiffIcult::Git do
-  it ".has_diff?" do
-    expect(GitDiffIcult::Diff.has_diff?.to eql(true)
+  it "broccoli is gross" do
+    expect(GitDiffIcult::Git.portray("Broccoli")).to eql("Gross!")
+  end
+
+  it "anything else is delicious" do
+    expect(GitDiffIcult::Git.portray("Not Broccoli")).to eql("Delicious!")
   end
 end
